@@ -1,0 +1,33 @@
+Teste de caixa branca - é uma forma de teste de aplicativo que fornece ao testador conhecimento completo do aplicativo que está sendo testado, incluindo acesso ao código-fonte e documentos de design.
+
+Teste unitario - São testes que verificam se uma parte específica do código, costumeiramente a nível de função, está funcionando corretamente.
+
+Teste de integração de componentes - São testes realizandos com diferentes partes do time visando verificar o funcionamento de modulos em conjunto, para garantir a eficiencia e segurança alem de verificar se nao ocorrera quebras na aplicação ou se tera divergencias no valor de retorno.
+
+->Teste de integração vertical
+O teste de integração vertical verifica a integração entre camadas de um sistema, ou seja, entre as diferentes unidades que compõem a arquitetura do software. Nele, são analisadas as interações entre as camadas, bem como a consistência dos dados que são transmitidos entre elas.
+
+->Teste de integração horizontal
+O teste de integração horizontal é utilizado para verificar a integração entre diferentes módulos ou componentes que atuam no mesmo nível de abstração. Nesse tipo de teste, são avaliadas as interações entre os componentes e a compatibilidade entre eles.
+
+->Teste de integração de sistema
+O teste de integração de sistema é um tipo de teste que identifica a integração entre diferentes sistemas ou subsistemas de um software. Com isso, são verificadas as interações entre os sistemas, bem como a interoperabilidade entre eles.
+
+->Teste de integração de interface
+O teste de integração de interface avalia a integração entre diferentes interfaces de um software. Assim, são analisadas as interações entre as interfaces e a consistência dos dados que são transmitidos entre elas.
+
+->Teste de integração de serviços
+O teste de integração de serviços é utilizado para validar a integração entre diferentes serviços que compõem um software. Dessa forma, são analisadas as interações entre os serviços, bem como a compatibilidade entre eles.
+
+->Teste de integração de regressão
+O teste de integração de regressão é utilizado para validar se as alterações feitas no software não afetaram a integridade do sistema. Nesse tipo de teste, são verificadas as interações entre as diferentes funcionalidades e a compatibilidade entre elas após a realização de alterações.
+
+Teste de serviços(API) - Os desenvolvedores fazem testes para saber se as APIs atendem às expectativas quanto a funcionalidade, desempenho, confiabilidade e segurança.
+
+Teste de caixa preta - Uma forma de testes onde não necessita do conhecimento do software, sendo possivel realizar mais facilmente por alguem novo no projeto.
+
+Teste de aceitação
+
+Teste de sistema
+
+teste de usabilidade
