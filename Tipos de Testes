@@ -1,0 +1,37 @@
+Teste de regressao - tecnica de teste a ser aplicado na versão mais nova do software, para
+garantir que nao tenha surgido novos defeitos nos componentes ja testados.
+
+Teste de sanidade - teste superficial, para verificar apenas os elementos mais importantes,
+para garantir o funcionamento dos elementos essenciais para que o software rode normalmente.
+
+Teste de limite - checkagem de valores limites do sistema, verificando o valor minimo, medio e
+maximo definidos pelo sistema. utilizado para testar requisitos que exigem um intervalo de numeros
+ex: data e hora
+
+Teste de transicão de estados - é uma técnica de design de teste que se concentra em como um 
+aplicativo ou sistema se comporta quando muda de um estado para outro. É especialmente útil 
+para cenários de teste que envolvem fluxos de trabalho complexos, entradas dinâmicas do usuário 
+ou várias condições.
+
+Teste não funcionais - tem como objetivo testar aspectos do software nao associados a funcionalidades
+ex: escalabilidade, desempenho, segurança.
+
+Testes de performance:
+->Teste de carga, tem como objetivo verificar o desempenho quando submetido a altas cargas variaveis
+de usuarios ou transaçoes
+
+->Teste de capacidade, semelhante ao de carga, tem como objetivo identificar os limites da aplicaçao
+ verificando quantos usuarios simultaneos ou chamados por segundo a aplicação é capaz de suportar dentro
+dos paramentros de qualidade definidos.
+
+->Teste de stress, verificar a perfomance de um sistema quando é submetido a cargas que estão no
+limite ou acima do limite especificado inicialmente.
+OBS: serve para verificar se o sistema quebra com falta de memoria, armazenamento, processamento
+Programa WinStress consegue alterar artificialmente esses componentes a fim de testar o comportamento
+Programas DieselTest e OpenSTA para teste de rede
+Programa DBMonster para teste de aplicaçoes SQL
+
+Teste de usabilidade - Observar um usuario, com uma visao de fora do projeto e analisar seu comportamento
+e ver com qual facilidade o usuario é capaz de utilizar a aplicação desenvolvida. Com objetivo de
+descobrir falhas e identificar pontos de melhoria.
+
